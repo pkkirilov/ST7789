@@ -5,6 +5,7 @@ import ST7789 as TFT
 import datetime
 import os
 import time
+from gif import AnimatedGif
 
 from PIL import Image, ImageDraw, ImageFont, ImageColor
 
@@ -44,3 +45,4 @@ image1 = Image.new("RGB", (disp.width, disp.height), "PURPLE")
 draw = ImageDraw.Draw(image1)
 disp.display(image1)
 
+gif_player = AnimatedGif(disp, width=240, height=240, folder=".")

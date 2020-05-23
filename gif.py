@@ -2,8 +2,6 @@ import os
 import time
 from PIL import Image, ImageOps
 
-import ST7789
-
 class Frame:
     def __init__(self, duration=0):
         self.duration = duration
