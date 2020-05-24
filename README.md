@@ -20,5 +20,3 @@ TFT Display Pin to RPi Pin (as in board Pin, not BCM):
 * [ST7789 Datasheet](https://drive.google.com/file/d/1OHdfYN2_EqtdWj6n5vNYCxvyYUSaHTt2/view)
 * [that-ben's thread](https://raspberrypi.stackexchange.com/q/108168)
 * [Solinnovay's lib](https://github.com/solinnovay/Python_ST7789)
-# TODO
-Add wiring diagram (preferably using Fritzing); sample code on gifs
